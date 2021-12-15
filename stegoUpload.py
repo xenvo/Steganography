@@ -13,7 +13,7 @@ image = lsb.hide("lester.png", msg_b64decoded)
 image.save("lesterStego.png")
 image_decode = lsb.reveal("lesterStego.png")
 print(image_decode) 
-print("\nMessage succesfully injected")
+print("\n[!]Message injected successfully!")
 CLIENT_ID = "82163dae73db44e"
 PATH = "lesterStego.png"
 imageUpload = pyimgur.Imgur(CLIENT_ID)
